@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "jackie-and-jon",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A wedding site for Jackie and Jon, based on a gatsby starter",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jesse Beckenson <hello@je553.com>",
   "dependencies": {
     "gatsby": "^2.24.85",
     "gatsby-image": "^2.4.21",
