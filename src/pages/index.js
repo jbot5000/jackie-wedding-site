@@ -10,7 +10,7 @@ import Countdown from "../components/countdown";
 
 // const Countdown = null;
 const youtubeLink = '/';
-const paypalLink = '/';
+const paypalLink = 'https://paypal.me/pools/c/8tTGDYncdq';
 const donateLink = `https://secure.actblue.com/donate/naacp-1`;
 
 const IndexPage = () => (
