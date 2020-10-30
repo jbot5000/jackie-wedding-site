@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
       <div id="container">
         <main>{children}</main>
         <footer>
-        © {new Date().getFullYear()} | Built by Jesse with
+        © {new Date().getFullYear()} | Built by <a href="https://jbot.tech/">Jesse</a> with
         {` `}
         <a href="https://www.gatsbyjs.com">Gatsby</a>
       </footer>

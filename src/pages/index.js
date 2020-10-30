@@ -5,11 +5,13 @@ import SEO from "../components/seo"
 
 import yt from "../images/yt.svg"
 import pp from "../images/pp.svg"
+import donate from "../images/donate.svg"
 import Countdown from "../components/countdown";
 
 // const Countdown = null;
 const youtubeLink = '/';
 const paypalLink = '/';
+const donateLink = `https://secure.actblue.com/donate/naacp-1`;
 
 const IndexPage = () => (
   <Layout>
@@ -40,6 +42,12 @@ const IndexPage = () => (
           <button><img src={pp} alt="PayPal logo" /><span>Wedding Fund</span></button>
         </a>
         <p>If you'd like to pitch in, we're accepting donations to help cover the cost of our small wedding and growing a nest egg.</p>
+      </div>
+      <div className="link">
+        <a href={donateLink} target="_blank" rel="noreferrer">
+          <button><img src={donate} alt="Donate to NAACP" /><span>Donate to NAACP</span></button>
+        </a>
+        <p>In lieu of a gift registry, we'd appreciate if you'd instead donate to the <a href={donateLink}>NAACP</a> and help eliminate racial hatred & descrimination. </p>
       </div>
     </section>
     <section>

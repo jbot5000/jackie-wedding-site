@@ -660,7 +660,7 @@ main {
 
 section#links {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1.5em;
   padding-bottom: 2em;
 }
